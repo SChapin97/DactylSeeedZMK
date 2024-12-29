@@ -16,7 +16,7 @@
    kscan: kscan {
      compatible = "zmk,kscan-gpio-matrix";
      label = "kscan";
-     diode-direction = "col2row";
+     diode-direction = "row2col";
      col-gpios =   <&shift_reg 2 (GPIO_ACTIVE_HIGH)>
                  , <&shift_reg 3 (GPIO_ACTIVE_HIGH)>
                  , <&shift_reg 4 (GPIO_ACTIVE_HIGH)>
